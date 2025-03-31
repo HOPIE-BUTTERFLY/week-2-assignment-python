@@ -1,4 +1,17 @@
-my_list=[10,20,15,30,40,50,60,]
+# Q1
+my_list=[]
+# Q2
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+# Q3
+my_list.insert(1,15)
+# Q4
+my_list.extend([50,60,70])
+# Q5
+my_list.pop()
+# Q6
 my_list.sort()
-print(my_list)
-print (30 in my_list)
+#Q7
+print(my_list.index(30))
